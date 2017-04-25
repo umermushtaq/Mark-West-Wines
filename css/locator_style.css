@@ -1,0 +1,415 @@
+.locator p{     visibility: hidden !important;}
+
+/* Large Style */
+.locator_large{
+	/* font-size: 10px !important;		
+	font-family:AllerLight, arial, sans-serif;*/
+	color: #000;
+	}
+	.locator_large input[type=button]{
+		background-color: #ede9e6;
+		border: 1px solid #e0dbd8;
+		color: #000;
+		}
+	.locator_large br{
+		display: block !important;
+		}
+
+/* Large Form */
+.locator_large .locator_form{
+	background: none !important;
+	border: none !important;
+    width: 30% !important;
+    padding: 15px !important;
+    float: left !important;
+    margin-right: 50px !important;
+	}
+.locator_large .locator_form_container {
+    margin-top: -40px !important;
+	margin-bottom: -20px !important;
+	}
+	.locator_large .locator_form hr{
+		border-top: 2px solid #f8f4ec;
+		}
+	.locator_large .locator_form select,.locator_large .locator_form input[type=text]{
+		border: 1px solid #f8f4ec;
+		}
+	
+.locator_large .locator_form select {
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin-bottom: 15px;
+    font-size: 14px;
+    height: 40px;
+    /* background-color: #F89831; */
+    background-color: transparent;
+    border: 4px solid #8c2305 !important;
+    color: #8c2305;
+    text-transform: uppercase !important;
+    font-weight: bold;
+}
+	.locator_large .locator_form .locator_address_label,.locator_large .locator_form .locator_miles_label{
+		color: #FFF;
+		}
+	.locator_large .locator_form .locator_current,
+	.locator_large .locator_form .locator_current_label,
+	.locator_large .locator_form .locator_store,
+	.locator_large .locator_form .locator_restaurant,
+	.locator_large .locator_form .label_inline{
+		width: auto !important;
+	    margin: 10px 0px 10px 5px;
+		}
+
+	.locator_large .locator_form .locator_legalage{
+		margin-top: 10px;
+		}
+.locator_large .locator_form hr {
+    border: none;
+    margin: 5px 0px 10px 0px;
+    clear: both;
+}
+
+.locator_large .locator_form .locator_search {
+    margin-top: 15px;
+    text-transform: uppercase;
+    width: 100%;
+    cursor: pointer;
+    background-color: #000000;
+    border: 4px solid #8c2305;
+    border-radius: 0;
+    padding: 8px 30px;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+/* Large Map */	
+.locator_large .locator_map{
+	background: none !important;
+	border: none !important;
+	}
+	
+/* Large Results */
+	.locator_large .locator_results .locator_locations li{
+		border-bottom: 2px solid #f8f4ec;
+		}
+	.locator_large .locator_results a{
+		color: #000;
+		}
+		
+		
+		
+		
+
+/* Medium Style */
+.locator_medium{
+	font-size: 10px !important;		
+	font-family:AllerLight, arial, sans-serif;
+	color: #000;
+	line-height: normal !important;
+	}
+	.locator_medium input[type=button]{
+		background-color: #ede9e6;
+		border: 1px solid #e0dbd8;
+		color: #929497;
+		}
+		.locator_medium br{
+			display: block !important;
+		}
+
+/* Medium Form */
+.locator_medium .locator_form{
+	background: #f2b55a;
+	border: 2px solid #f8f4ec;
+	}
+	
+	.locator_medium .locator_form .locator_logo{
+		background-image: url('logo.png');
+		}
+	.locator_medium .locator_form hr{
+		border-top: 2px solid #f8f4ec;
+		}
+	.locator_medium .locator_form select,.locator_medium .locator_form input[type=text]{
+		border: 1px solid #f8f4ec;
+		}
+	.locator_medium .locator_form .locator_address_label,.locator_medium .locator_form .locator_miles_label{
+		font-size: 12px;
+		color: #FFF;
+		margin-bottom: -10px;
+		height: 0px !important;
+		font-size: 12px !important;
+		}
+	.locator_medium .locator_form .locator_current,
+	.locator_medium .locator_form .locator_current_label,
+	.locator_medium .locator_form .locator_store,
+	.locator_medium .locator_form .locator_restaurant,
+	.locator_medium .locator_form .label_inline{
+		width: auto !important;
+		font-size: 10px !important;
+		}
+	.locator_medium .locator_form .locator_legalage{
+		margin-bottom: 5px;
+		}
+
+/* Medium Map */	
+.locator_medium .locator_map{
+	background: #f2b55a;
+	border: 2px solid #f8f4ec;
+	}		
+	
+/* Medium Results */
+	.locator_medium .locator_results .locator_locations li{
+		border-bottom: 2px solid #f8f4ec;
+		}
+	.locator_medium .locator_results a{
+		color: #000;
+		}
+		
+		
+		
+		
+		
+/* Small Style */
+.locator_small{
+	font-size: 12px !important;		
+	font-family:AllerLight, arial, sans-serif;
+	color: #000 !important;
+	line-height: normal !important;
+	}
+	.locator_small input[type=button]{
+		background-color: #ede9e6;
+		border: 1px solid #e0dbd8;
+		color: #000;
+		margin-bottom: 10px;
+		padding: 5px;
+		font-size: 12px !important;
+		}
+	.locator_small br{
+		display: block !important;
+		}
+
+/* Small Form */
+.locator_small .locator_form{		
+font-size: 12px !important;
+}
+	
+	.locator_small .locator_form hr{
+		border-top: 2px solid #f8f4ec;
+		}
+	.locator_small .locator_form select,.locator_small .locator_form input[type=text]{
+		border: 1px solid #f8f4ec;
+				font-size: 12px !important;
+}
+		
+	.locator_small .locator_form .locator_address_label,.locator_small .locator_form .locator_miles_label{
+		font-size: 12px;
+		color: #FFF;
+		height: 10px !important;
+		font-size: 10px !important;
+		}
+	.locator_small .locator_form .locator_current,
+	.locator_small .locator_form .locator_current_label,
+	.locator_small .locator_form .locator_store,
+	.locator_small .locator_form .locator_restaurant,
+	.locator_small .locator_form .label_inline{
+		width: auto !important;
+		font-size: 12px !important;
+		}
+	.locator_small .locator_form .locator_legalage{
+		margin-bottom: 10px;
+		font-size: 12px !important;
+		width: auto !important;
+		}
+		
+		.locator_small, label {
+					font-size: 12px !important;
+		}
+
+/* Small Map */	
+.locator_small .locator_map{
+	background: #f2b55a;
+	border: 2px solid #f8f4ec;
+	}		
+	
+/* Small Results */
+	.locator_small .locator_results .locator_locations li{
+		border-bottom: 2px solid #f8f4ec;
+			font-size: 12px !important;
+	}
+	.locator_small .locator_results a{
+		color: #000 !important; 
+		}
+		
+/* Small Navigation */
+.locator_small .locator_navigation{
+	background-color: #f2b55a;
+	border-top: 1px solid #f8f4ec;
+	}
+	.locator_small .locator_navigation ul li a{
+		border-left: 1px solid #f8f4ec;
+		background-image: url('https://productlocator.cbrands.com/mobile_navigation.png');
+		}
+	.locator_small .locator_navigation ul li a.locator_nav_back{
+		background-position: center 6px;
+		}
+	.locator_small .locator_navigation ul li a.locator_nav_home{
+		background-position: center -95px;
+		}
+	.locator_small .locator_navigation ul li a.locator_nav_search{
+		background-position: center -196px;
+		}
+	.locator_small .locator_navigation ul li a.locator_nav_map{
+		background-position: center -296px;
+		}
+	.locator_small .locator_navigation ul li a.locator_nav_results{
+		background-position: center -391px;
+		}
+		
+		
+		
+		
+		
+/* Widget Style */
+.locator_widget{
+	font-size: 10px !important;		
+	font-family:AllerLight, arial, sans-serif;
+	color: #000;
+	}
+	.locator_widget input[type=button]{
+		background-color: #ede9e6;
+		border: 1px solid #e0dbd8;
+		color: #929497;
+		}
+.locator_widget .locator_search_header, .locator_widget .locator_results_header{
+	background-color: #f2b55a;
+	border: 1px solid #f8f4ec;
+	color: #929497;
+	}	
+	.locator_widget .locator_results_header a.locator_header_search{
+		border-left: 1px solid #f8f4ec;
+		background-image: url('https://productlocator.cbrands.com/widget_search.png');
+		background-position: center center;
+		}
+
+/* Widget Form */
+.locator_widget .locator_form{
+	background: #f2b55a;
+	border: 1px solid #f8f4ec;
+	}
+	
+	.locator_widget .locator_form .locator_logo{
+		background-image: url('logo.png');
+		}
+	.locator_widget .locator_form hr{
+		border-top: 2px solid #f8f4ec;
+		}
+	.locator_widget .locator_form select,.locator_widget .locator_form input[type=text]{
+		border: 1px solid #f8f4ec;
+		}
+
+/* Widget Map */	
+.locator_widget .locator_map{
+	background: #f2b55a;
+	border: 1px solid #f8f4ec;
+	}		
+	
+/* Widget Results */
+.locator_widget .locator_results{
+	background: #f2b55a;
+	border: 1px solid #f8f4ec;
+	}
+	.locator_widget .locator_results .locator_locations li{
+		}
+	.locator_widget .locator_results a{
+		color: #000;
+		}
+		
+		
+		
+		
+		
+		
+		
+/* Narrow Style */
+.locator_narrow{
+	font-size: 10px !important;		
+	font-family:AllerLight, arial, sans-serif;
+	color: #000;
+	}
+	.locator_narrow input[type=button]{
+		background-color: #ede9e6;
+		border: 1px solid #e0dbd8;
+		color: #929497;
+		}
+.locator_narrow .locator_search_header, .locator_narrow .locator_results_header{
+	background-color: #f2b55a;
+	border: 1px solid #f8f4ec;
+	color: #929497;
+	}	
+	.locator_narrow .locator_results_header a.locator_header_search{
+		border-left: 1px solid #f8f4ec;
+		background-image: url('https://productlocator.cbrands.com/widget_search.png');
+		background-position: center center;
+		}
+
+/* Narrow Form */
+.locator_narrow .locator_form{
+	background: #f2b55a;
+	border: 1px solid #f8f4ec;
+	}
+	
+	.locator_narrow .locator_form .locator_logo{
+		background-image: url('logo.png');
+		}
+	.locator_narrow .locator_form hr{
+		border-top: 2px solid #f8f4ec;
+		}
+	.locator_narrow .locator_form select,.locator_narrow .locator_form input[type=text]{
+		border: 1px solid #f8f4ec;
+		}
+
+/* Narrow Map */	
+.locator_narrow .locator_map{
+	background: #f2b55a;
+	border: 1px solid #f8f4ec;
+	}		
+	
+/* Narrow Results */
+.locator_narrow .locator_results{
+	background: #f2b55a;
+	border: 1px solid #f8f4ec;
+	}
+	.locator_narrow .locator_results .locator_locations li{
+		}
+	.locator_narrow .locator_results a{
+		color: #000;
+		}
+		
+/* Narrow Navigation */
+.locator_narrow .locator_navigation{
+	background-color: #f2b55a;
+	border: 1px solid #f8f4ec;
+	border-top: none;
+	}
+	.locator_narrow .locator_navigation ul li a{
+		border-left: 1px solid #f8f4ec;
+		background-image: url('https://productlocator.cbrands.com/mobile_navigation.png');
+		}
+	.locator_narrow .locator_navigation ul li a.locator_nav_back{
+		background-position: center 6px;
+		}
+	.locator_narrow .locator_navigation ul li a.locator_nav_home{
+		background-position: center -95px;
+		}
+	.locator_narrow .locator_navigation ul li a.locator_nav_search{
+		background-position: center -196px;
+		}
+	.locator_narrow .locator_navigation ul li a.locator_nav_map{
+		background-position: center -296px;
+		}
+	.locator_narrow .locator_navigation ul li a.locator_nav_results{
+		background-position: center -391px;
+		}

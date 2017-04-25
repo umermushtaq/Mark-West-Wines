@@ -1,0 +1,160 @@
+.agegat-container a{
+	padding: 0;
+	background-color: transparent;
+}
+
+#agegat-agegateway{
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	height: 10000000px;
+	z-index: 999999999;
+	visibility: visible !important;
+}
+
+.agegat-small .agegat-largeonly{
+	display: none !important;
+}
+.agegat-large .agegat-smallonly{
+	display: none !important;
+}
+
+/* Large */
+	.agegat-large .agegat-container{
+	text-align: center;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    height: auto;
+    background-color: #F89831;
+    padding: 30px;
+}
+
+@media screen and (max-width:850px) {
+	.agegat-large .agegat-container {width: 80%;	}
+}
+
+	.agegat-large .field-container{
+		width: auto;
+	}
+	.agegat-large #agegat-header{
+		width: 100%;
+		height: auto;
+	}
+	.agegat-large .agegat-container h1{
+		font-size: 24px;
+		margin: 0 0 20px 0;
+	}
+	.agegat-large .agegat-container h2{
+		font-size: 14px;
+		margin: 0 0 20px 0;
+	}
+	.agegat-large .agegat-field{
+		display: inline-block;
+		/*width: 19%;*/
+		margin: 0 1% 0 1%;
+	}
+	.agegat-large .agegat-field select,
+	.agegat-large .agegat-field input{
+		width: 100%;
+	}
+	.agegat-large #agegat-error{
+		display: inline-block;
+		list-style-type: none;
+		margin: 10px auto 0 auto;
+		padding: 5px;
+		min-width: 200px;
+		max-width: 400px;
+		display: none;
+	}
+	.agegat-large p{
+		margin: 30px 30px 20px 30px;
+		padding: 0;
+		font-size: 10px;
+	}
+
+	.agegat-large .legal {
+		width: 300px;
+	}
+
+/* Small */
+	.agegat-small .agegat-container{
+	 text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height: auto;
+    background-color: #F89831;
+    padding: 10px;
+		
+}
+	.agegat-small #agegat-header{
+		width: 50%;
+		height: auto;
+
+	}
+	.agegat-small .agegat-container h1{
+		font-size: 16px;
+		margin: 15px 0 15px 0;
+	}
+	.agegat-small .agegat-container h2{
+		font-size: 16px;
+	}
+	.agegat-small .agegat-field{
+		display: inline-block;
+		/*width: 80px;
+		margin: 0 20px 15px 20px;*/
+	}
+	.agegat-small .agegat-field select,
+	.agegat-small .agegat-field input{
+    width: 70px;
+    background: #8c2305;
+    height: 38px;
+    font-size: 14px;
+    border: none;
+		}
+	.agegat-small #agegat-error{
+		display: inline-block;
+		list-style-type: none;
+		margin: 10px auto 0 auto;
+		padding: 5px;
+		display: none;
+	}
+	.agegat-small .legal {
+		display: block;
+		width: 250px;
+		margin: 20px auto;
+	}
+	.agegat-small p{
+		font-size: 10px;
+		text-align:center;
+	}
+
+.agegat-fields{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 0;
+	overflow: hidden;
+}
+.agegat-fields input{
+	width: 80px;
+	text-align: center;
+	height: 40px;
+	font-size: 16px;
+	border: 0;
+	background-color: #fff;
+	color: #000;
+}
+.agegat-fields input:first-child{ border: 0; }
+
+#agegat-confirm {
+    background-color: #8c2305;
+    display: block;
+    margin: 30px auto 0;
+    border: none;
+	color: #ffffff;
+}

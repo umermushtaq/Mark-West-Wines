@@ -1,0 +1,30 @@
+#agegat-agegateway{
+	background-color: rgba(0, 0, 0, 0.7);
+	display: none;
+	color: #ffffff;
+}
+
+#agegat-agegateway .agegat-container{
+	font-family: 12px;
+}
+
+#agegat-agegateway #agegat-error{
+	background: #cc0000;
+	color: #550000;
+	border: 1px solid #550000;
+}
+
+#agegat-agegateway h1{
+}
+
+#agegat-agegateway h2{
+	font-weight: normal;
+}
+
+#agegat-agegateway p{
+	font-weight: normal;
+}
+
+#agegat-agegateway a{
+	color: inherit;
+}
