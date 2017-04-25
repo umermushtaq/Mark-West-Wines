@@ -1,0 +1,62 @@
+<?
+include '../includes/config.php';
+$title = 'Mark West Wines';
+$ogtitle = 'Mark West Wines';
+$description = 'Mark West Wines';
+$ogdescription = 'Mark West Wines';
+include '../includes/head.php';?>
+
+ <body>
+<?include '../includes/header.php';?>
+
+<!-- Page Headline
+<section>
+<div class="container">
+	<div class="row">
+		<div class="heading">
+			<h1 class="red shadow">Mark West Ultimate Grilling Challenge</h1>
+			<h5 class="red"><strong>Create. Share. Vote. Grill</strong></h5>
+		</div>
+	</div>
+</div>
+</section> -->
+
+<!-- Page Banner Image -->
+<section>
+<div class="container-fluid no-pad">
+		<div class="image-feature banner" style="background-image:url('../images/hero-recipes.jpg');">
+        <div class="contest-overlay"><img src="../images/gilling-overlay.png"></div>        
+		</div>
+</div>
+</section>
+
+<!-- Page Content -->
+<section>
+<div class="container no-pad small">
+	<div class="row bg">
+		<div class="col-xs-12 general">
+<div id='woobox-root'></div>
+<script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "http://woobox.com/js/plugins/woo.js";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'woobox-sdk'));</script>
+
+
+<div class='woobox-offer' data-offer='a6yokq'></div>
+
+		</div>
+	</div>
+</div>
+</section>
+
+
+<?include '../includes/return-to-top.php';?>
+<?include '../includes/footer.php';?>
+<?include '../includes/scripts.php';?>
+
+
+</body>
+</html>
